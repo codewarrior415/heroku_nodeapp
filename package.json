@@ -1,0 +1,26 @@
+{
+  "name": "heroku_nodeapp",
+  "version": "0.0.0",
+  "description": "First attemp to creating a node application on Heroku",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codewarrior415/heroku_nodeapp.git"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "Matt Murillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codewarrior415/heroku_nodeapp/issues"
+  },
+  "dependencies": {
+    "logfmt": "~0.21.0",
+    "express": "~3.4.8"
+  }
+}
