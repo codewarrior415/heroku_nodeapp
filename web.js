@@ -13,7 +13,7 @@ logfmt.log({dir: __dirname});
 
 app.use("/vendor", express.static(__dirname + '/ember-app-kit-master/vendor'));
 app.use("/config", express.static(__dirname + '/ember-app-kit-master/config'));
-app.use("/assets", express.static(__dirname + '/ember-app-kit-master/tmp/result/assets'));
+app.use("/assets", express.static(__dirname + '/ember-app-kit-master/dist/assets'));
 app.use("/app", express.static(__dirname + '/ember-app-kit-master/tmp/result'));
 app.use("/dist", express.static(__dirname + '/ember-app-kit-master/dist'));
 //app.use("/", express.static(__dirname + '/ember-app-kit-master/dist'));
